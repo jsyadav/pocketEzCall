@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		28860B770F44E54D00985440 /* iezCall.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28860B760F44E54D00985440 /* iezCall.xcdatamodel */; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		A11D07F21512FAEB00B49F9C /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A11D07F11512FAEB00B49F9C /* Entitlements.plist */; };
+		A131BC7814D3BF25008F3C56 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A131BC7714D3BF25008F3C56 /* MessageUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		A134EF6814D7BD8B00393EE9 /* iezCallAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A134EF6014D7BD8B00393EE9 /* iezCallAppDelegate.m */; };
+		A134EF6914D7BD8B00393EE9 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A134EF6214D7BD8B00393EE9 /* PDFViewController.m */; };
+		A134EF6A14D7BD8B00393EE9 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = A134EF6414D7BD8B00393EE9 /* Profile.m */; };
+		A134EF6B14D7BD8B00393EE9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A134EF6614D7BD8B00393EE9 /* RootViewController.m */; };
+		A134EF7114D7BF7100393EE9 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A134EF7014D7BF7100393EE9 /* EditViewController.m */; };
+		A1621981151060800093B9C3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1621980151060800093B9C3 /* CoreFoundation.framework */; };
+		A1621983151060B30093B9C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1621982151060B30093B9C3 /* UIKit.framework */; };
+		A1621985151060EA0093B9C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1621984151060EA0093B9C3 /* Foundation.framework */; };
+		A176385714D0EFC100E7899A /* intercon.png in Resources */ = {isa = PBXBuildFile; fileRef = A176385614D0EFC100E7899A /* intercon.png */; };
+		A1EF1C8E14D6550500436A39 /* connect_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1C8D14D6550500436A39 /* connect_logo.png */; };
+		A1EF1C9E14D65DB600436A39 /* 75-phone.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1C9D14D65DB600436A39 /* 75-phone.png */; };
+		A1EF1CA114D65E5A00436A39 /* chat_alt_stroke_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1C9F14D65E5A00436A39 /* chat_alt_stroke_16x16.png */; };
+		A1EF1CA214D65E5A00436A39 /* info_8x16.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1CA014D65E5A00436A39 /* info_8x16.png */; };
+		A1EF1CA614D6657200436A39 /* PDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1CA514D6657200436A39 /* PDFViewController.xib */; };
+		EF1896BD1419034F00F7B008 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1896BB1419034F00F7B008 /* EditViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D6058910D05DD3D006BFB54 /* pocketEzCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketEzCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28860B760F44E54D00985440 /* iezCall.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = iezCall.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* pocketEzCall_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pocketEzCall_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* pocketEzCall-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pocketEzCall-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A106579318196E9500006EEF /* libFlurryAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryAnalytics.a; path = ../Flurry/libFlurryAnalytics.a; sourceTree = "<group>"; };
+		A11D07F11512FAEB00B49F9C /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		A12F044A14F0807800081E3F /* FlurryAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAnalytics.h; sourceTree = "<group>"; };
+		A12F044B14F0807800081E3F /* libFlurryAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAnalytics.a; sourceTree = "<group>"; };
+		A131BC7714D3BF25008F3C56 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A134EF5F14D7BD8B00393EE9 /* iezCallAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iezCallAppDelegate.h; sourceTree = "<group>"; };
+		A134EF6014D7BD8B00393EE9 /* iezCallAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iezCallAppDelegate.m; sourceTree = "<group>"; };
+		A134EF6114D7BD8B00393EE9 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		A134EF6214D7BD8B00393EE9 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		A134EF6314D7BD8B00393EE9 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		A134EF6414D7BD8B00393EE9 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		A134EF6514D7BD8B00393EE9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A134EF6614D7BD8B00393EE9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A134EF6F14D7BF7100393EE9 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		A134EF7014D7BF7100393EE9 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		A1621980151060800093B9C3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A1621982151060B30093B9C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1621984151060EA0093B9C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A176385614D0EFC100E7899A /* intercon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intercon.png; sourceTree = "<group>"; };
+		A1EF1C8D14D6550500436A39 /* connect_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect_logo.png; sourceTree = "<group>"; };
+		A1EF1C9D14D65DB600436A39 /* 75-phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "75-phone.png"; sourceTree = "<group>"; };
+		A1EF1C9F14D65E5A00436A39 /* chat_alt_stroke_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_alt_stroke_16x16.png; sourceTree = "<group>"; };
+		A1EF1CA014D65E5A00436A39 /* info_8x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_8x16.png; sourceTree = "<group>"; };
+		A1EF1CA514D6657200436A39 /* PDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFViewController.xib; sourceTree = SOURCE_ROOT; };
+		EF1896BB1419034F00F7B008 /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1621985151060EA0093B9C3 /* Foundation.framework in Frameworks */,
+				A1621983151060B30093B9C3 /* UIKit.framework in Frameworks */,
+				A1621981151060800093B9C3 /* CoreFoundation.framework in Frameworks */,
+				A131BC7814D3BF25008F3C56 /* MessageUI.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A134EF6F14D7BF7100393EE9 /* EditViewController.h */,
+				A134EF7014D7BF7100393EE9 /* EditViewController.m */,
+				A134EF5F14D7BD8B00393EE9 /* iezCallAppDelegate.h */,
+				A134EF6014D7BD8B00393EE9 /* iezCallAppDelegate.m */,
+				A12F044A14F0807800081E3F /* FlurryAnalytics.h */,
+				A12F044B14F0807800081E3F /* libFlurryAnalytics.a */,
+				A134EF6114D7BD8B00393EE9 /* PDFViewController.h */,
+				A134EF6214D7BD8B00393EE9 /* PDFViewController.m */,
+				A134EF6314D7BD8B00393EE9 /* Profile.h */,
+				A134EF6414D7BD8B00393EE9 /* Profile.m */,
+				A134EF6514D7BD8B00393EE9 /* RootViewController.h */,
+				A134EF6614D7BD8B00393EE9 /* RootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* pocketEzCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* pocketEzCall_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A11D07F11512FAEB00B49F9C /* Entitlements.plist */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				EF1896BB1419034F00F7B008 /* EditViewController.xib */,
+				A1EF1CA514D6657200436A39 /* PDFViewController.xib */,
+				A1EF1C9D14D65DB600436A39 /* 75-phone.png */,
+				A176385614D0EFC100E7899A /* intercon.png */,
+				28860B760F44E54D00985440 /* iezCall.xcdatamodel */,
+				A1EF1C9F14D65E5A00436A39 /* chat_alt_stroke_16x16.png */,
+				A1EF1CA014D65E5A00436A39 /* info_8x16.png */,
+				A1EF1C8D14D6550500436A39 /* connect_logo.png */,
+				8D1107310486CEB800E47090 /* pocketEzCall-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A106579318196E9500006EEF /* libFlurryAnalytics.a */,
+				A1621984151060EA0093B9C3 /* Foundation.framework */,
+				A1621982151060B30093B9C3 /* UIKit.framework */,
+				A1621980151060800093B9C3 /* CoreFoundation.framework */,
+				A131BC7714D3BF25008F3C56 /* MessageUI.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* pocketEzCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "pocketEzCall" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pocketEzCall;
+			productName = iezCall;
+			productReference = 1D6058910D05DD3D006BFB54 /* pocketEzCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "pocketEzCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* pocketEzCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				EF1896BD1419034F00F7B008 /* EditViewController.xib in Resources */,
+				A176385714D0EFC100E7899A /* intercon.png in Resources */,
+				A1EF1C8E14D6550500436A39 /* connect_logo.png in Resources */,
+				A1EF1C9E14D65DB600436A39 /* 75-phone.png in Resources */,
+				A1EF1CA114D65E5A00436A39 /* chat_alt_stroke_16x16.png in Resources */,
+				A1EF1CA214D65E5A00436A39 /* info_8x16.png in Resources */,
+				A1EF1CA614D6657200436A39 /* PDFViewController.xib in Resources */,
+				A11D07F21512FAEB00B49F9C /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				28860B770F44E54D00985440 /* iezCall.xcdatamodel in Sources */,
+				A134EF6814D7BD8B00393EE9 /* iezCallAppDelegate.m in Sources */,
+				A134EF6914D7BD8B00393EE9 /* PDFViewController.m in Sources */,
+				A134EF6A14D7BD8B00393EE9 /* Profile.m in Sources */,
+				A134EF6B14D7BD8B00393EE9 /* RootViewController.m in Sources */,
+				A134EF7114D7BF7100393EE9 /* EditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jit yadav (N6ML5YRG29)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../.Trash\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = pocketEzCall_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "pocketEzCall-Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "pocketEzCall-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/Classes\\\"",
+					/Users/jyadav/iPhoneExamples/Flurry,
+				);
+				PRODUCT_NAME = pocketEzCall;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jit yadav (N6ML5YRG29)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../.Trash\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = pocketEzCall_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "pocketEzCall-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/Classes\\\"",
+					/Users/jyadav/iPhoneExamples/Flurry,
+				);
+				PRODUCT_NAME = pocketEzCall;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8F6AA8C0-9596-42C1-B891-58A6BC5CEEA3";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nityo Infotech";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nityo Infotech";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8F6AA8C0-9596-42C1-B891-58A6BC5CEEA3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8F6AA8C0-9596-42C1-B891-58A6BC5CEEA3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nityo Infotech";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nityo Infotech";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8F6AA8C0-9596-42C1-B891-58A6BC5CEEA3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8F6AA8C0-9596-42C1-B891-58A6BC5CEEA3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "pocketEzCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "pocketEzCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppStoreFileSize</key>
+	<integer>178516</integer>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/pocketEzCall.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.Netitude.pocketEzCall</string>
+		<key>IconPaths</key>
+		<array>
+			<string>Applications/pocketEzCall.app/intercon.png</string>
+		</array>
+		<key>SigningIdentity</key>
+		<string>iPhone Distribution: Nityo Infotech</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2012-03-13T22:43:15Z</date>
+	<key>Name</key>
+	<string>pocketEzCall</string>
+	<key>SchemeName</key>
+	<string>pocketEzCall</string>
+</dict>
+</plist>
